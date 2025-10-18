@@ -36,9 +36,9 @@ This file shows how to build a Unity app and run it on Meta Quest 3.
 - ADB (Android Debug Bridge) installation reference:
       - https://docs.42gears.com/AstroFarm/InstallADBSetuponWindowsDevices.html#:~:text=1.,required%20when%20configuring%20the%20agent
       - Notes:
-            - Use a high-quality USB-C cable when connecting the headset to the PC.
-            - Verify connection with: <pre><code class="language-powershell">adb devices</code></pre> 
-            - When you connect the Quest 3 to the PC for the first time and run an adb command, the headset will prompt you to allow USB debugging from the computer. Choose "Always allow from this computer" (or similar) on the headset to avoid repeated prompts.
+         - Use a high-quality USB-C cable when connecting the headset to the PC.
+         - Verify connection with: <pre><code class="language-powershell">adb devices</code></pre> 
+         - When you connect the Quest 3 to the PC for the first time and run an adb command, the headset will prompt you to allow USB debugging from the computer. Choose "Always allow from this computer" (or similar) on the headset to avoid repeated prompts.
 
 ## Troubleshooting hints
 
