@@ -22,8 +22,8 @@ This file shows how to build a Unity app and run it on Meta Quest 3.
 - Option B — Install the APK on the Quest (persistent install):
       - Load APK to headset:
             - Open a terminal and run: <pre><code class="language-powershell">adb install myapp.apk</code></pre>
-            - Launch on headset:
-                  - On the Quest, open Library -> Unknown Sources and start the app named "testapp" (or the product name you set in Unity).
+      - Launch on headset:
+            - On the Quest, open Library -> Unknown Sources and start the app named "testapp" (or the product name you set in Unity).
 
 ## Tools & setup notes
 
