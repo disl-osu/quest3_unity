@@ -26,6 +26,7 @@ This file shows how to build a Unity app and run it on Meta Quest 3.
 ```powershell
 adb install myapp.apk
 ```
+
       - Launch on headset:
             - On the Quest, open Library -> Unknown Sources and start the app named "testapp" (or the product name you set in Unity).
 
@@ -46,6 +47,7 @@ adb install myapp.apk
 ```powershell
 adb devices
 ```
+
             - When you connect the Quest 3 to the PC for the first time and run an adb command, the headset will prompt you to allow USB debugging from the computer. Choose "Always allow from this computer" (or similar) on the headset to avoid repeated prompts.
 
 ## Troubleshooting hints
