@@ -21,11 +21,7 @@ This file shows how to build a Unity app and run it on Meta Quest 3.
 
 - Option B — Install the APK on the Quest (persistent install):
       - Load APK to headset:
-                        - Open a terminal and run:
-
-                  ```powershell
-                  adb install myapp.apk
-                  ```
+                        - Open a terminal and run: "adb install myapp.apk"
 
             - Launch on headset:
                   - On the Quest, open Library -> Unknown Sources and start the app named "testapp" (or the product name you set in Unity).
@@ -42,12 +38,8 @@ This file shows how to build a Unity app and run it on Meta Quest 3.
       - https://docs.42gears.com/AstroFarm/InstallADBSetuponWindowsDevices.html#:~:text=1.,required%20when%20configuring%20the%20agent
       - Notes:
             - Use a high-quality USB-C cable when connecting the headset to the PC.
-                        - Verify connection with:
-
-                  ```powershell
-                  adb devices
-                  ```
-
+                        - Verify connection with: "adb devices"
+             
             - When you connect the Quest 3 to the PC for the first time and run an adb command, the headset will prompt you to allow USB debugging from the computer. Choose "Always allow from this computer" (or similar) on the headset to avoid repeated prompts.
 
 ## Troubleshooting hints
