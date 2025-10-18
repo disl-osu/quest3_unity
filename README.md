@@ -21,17 +21,17 @@ This file shows how to build a Unity app and run it on Meta Quest 3.
 
 - Option B — Install the APK on the Quest (persistent install):
       - Load APK to headset:
-            - Open a terminal and run: <pre><code class="language-powershell">adb install myapp.apk</code></pre>
+         - Open a terminal and run: <pre><code class="language-powershell">adb install myapp.apk</code></pre>
       - Launch on headset:
-            - On the Quest, open Library -> Unknown Sources and start the app named "testapp" (or the product name you set in Unity).
+         - On the Quest, open Library -> Unknown Sources and start the app named "testapp" (or the product name you set in Unity).
 
 ## Tools & setup notes
 
 - Meta Quest Link (official):
       - https://www.meta.com/help/quest/509273027107091/
       - Notes:
-            - Use a USB-C 3.0 cable for wired Link.
-            - For Air Link (Wi‑Fi), ensure the PC and Quest are on the same local network.
+         - Use a USB-C 3.0 cable for wired Link.
+         - For Air Link (Wi‑Fi), ensure the PC and Quest are on the same local network.
 
 - ADB (Android Debug Bridge) installation reference:
       - https://docs.42gears.com/AstroFarm/InstallADBSetuponWindowsDevices.html#:~:text=1.,required%20when%20configuring%20the%20agent
@@ -43,10 +43,10 @@ This file shows how to build a Unity app and run it on Meta Quest 3.
 ## Troubleshooting hints
 
 - If the headset does not show under adb devices:
-      - Reconnect the USB cable and re-enable USB debugging on the headset.
-      - Try a different USB port or a known-good cable.
+   - Reconnect the USB cable and re-enable USB debugging on the headset.
+   - Try a different USB port or a known-good (ideally USB 3) cable.
 - If streaming (Air Link) stutters:
-      - Move PC and headset closer to the Wi‑Fi AP or use a wired connection for the PC.
+   - Move PC and headset closer to the Wi‑Fi AP or use a wired connection for the PC.
 
 ## References
 
