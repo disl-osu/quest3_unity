@@ -16,9 +16,9 @@ This file shows how to build a Unity app and run it on Meta Quest 3.
 - Option A — Air Link / streaming (no APK installed; good for fast debugging):
    - Play the scene in Unity on your PC.
    - Windows: run Meta Quest Link on the PC and enable "Link" on the headset.
-      - Linux (example): use SteamVR + ALVR on the PC and run the ALVR app on the headset.
-         - Note: ALVR on the PC and on the Quest should use the same version.
-         - You can use the ALVR Launcher (Windows or Linux) to launch ALVR to the Quest: https://github.com/alvr-org/ALVR?tab=readme-ov-file
+   - Linux (example): use SteamVR + ALVR on the PC and run the ALVR app on the headset.
+      - Note: ALVR on the PC and on the Quest should use the same version.
+      - You can use the ALVR Launcher (Windows or Linux) to launch ALVR to the Quest: https://github.com/alvr-org/ALVR?tab=readme-ov-file
 
 - Option B — Install the APK on the Quest (persistent install):
    - Load APK to headset:
